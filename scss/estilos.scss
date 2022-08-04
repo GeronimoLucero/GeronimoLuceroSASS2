@@ -1,0 +1,9 @@
+h1{
+    color: $primario;
+}
+
+/* LISTA 1 */
+
+$lista1: red, blue, green, lista, black
+
+$primario: nth($lista1, 3)
